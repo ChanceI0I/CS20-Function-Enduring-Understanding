@@ -100,5 +100,13 @@ function ordinalAdjective(number) {
 }
 
 function minPayment(balance) {
-    
+    let min = 0.021*balance;
+
+    if (min > 10) {
+        return min;
+    } else if (balance > 10) {
+        return 10;
+    } else {
+        return balance;
+    }
 }

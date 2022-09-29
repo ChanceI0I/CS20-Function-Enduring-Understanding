@@ -76,3 +76,7 @@ console.log(ordinalAdjective(9));
 
 devide()
 
+console.log(minPayment(1000));
+console.log(minPayment(600));
+console.log(minPayment(25));
+console.log(minPayment(8));
